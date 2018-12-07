@@ -1,0 +1,5 @@
+什么是隐式地创建副本 ?
+ https://yiyibooks.cn/xx/python_352/tutorial/controlflow.html#the-range-function
+ 为什么说创建原序列的拷贝。迭代序列不会隐式地创建副本
+
+ 
