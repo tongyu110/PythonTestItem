@@ -1,0 +1,27 @@
+原始字符串,通过添加 r 使用，输出
+	print('C:\some\name')	#C:\some
+	print(r'C:\some\name')	#C:\some\name
+	
+跨多行,使用三重引号: """...""" 或 '''...'''，输出
+	print("""
+	The First 
+	sdfsdfs
+	dfsdfsdfs
+	sdfs
+	""")
+	
+
++ 号连接字符串，* 重复多次字符串
+	str1 = 3 * 'xue ' + 'Test'
+	print(str1)		#xue xue xue Test
+	
+相邻的两个或多个字符串字面量(用引号引起来的)会自动连接
+	str2 = 'xue' 'peng' 'cheng'
+	print(str2)		#xuepengcheng
+
+字符串支持数组索引方式访问，切片，但是索引方式是不可赋值改变的
+	str3 = 'Hello world!'
+	print(str3[0])
+	str4 = str3[0:3]
+	str3[0] = 'I'		#抛出异常 TypeError: 'str' object does not support item assignment
+
