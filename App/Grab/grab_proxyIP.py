@@ -4,8 +4,6 @@
 #http://www.jiguangdaili.com/syjq/2260.html
 
 
-
-
 import urllib.request
 import urllib
 import re
