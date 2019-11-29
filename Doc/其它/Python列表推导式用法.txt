@@ -1,0 +1,2 @@
+Python列表推导式用法
+https://blog.csdn.net/zhangbaoanhadoop/article/details/81634780

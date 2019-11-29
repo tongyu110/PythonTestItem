@@ -1,0 +1,9 @@
+原始对象、对象的引用、浅copy、深copy
+实例如下:
+a = [1,2,3,['a','b']]
+b = a
+c = copy.copy(a)			#浅copy,共享子对象
+d = copy.deepcopy(a)		#深copy
+a.append(4)
+a[3].append('c')
+print(a,b,c,d)

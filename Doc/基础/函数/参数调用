@@ -1,0 +1,27 @@
+. 收集参数
+	
+	def print_param(*param):
+		print(param)		//打印的是一个元组
+
+
+	def print_parma(title,*param):
+		print(title)
+		print(param)
+
+
+	def print_param(x,*y,z):
+		print(x,y,z)
+
+	调用:
+		>>> print_param(1,2,3,4,z=7)
+		1 (2,3,4) 7
+
+
+	def print_param(**param):
+		print(param)
+	调用:
+		>>> print_param(x=1,y=2,z=3)
+		{'z':3,'y':2,'x':1}
+		当前输出的是不是元组，是字典
+
+	
